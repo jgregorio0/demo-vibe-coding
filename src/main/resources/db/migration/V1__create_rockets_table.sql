@@ -1,0 +1,6 @@
+CREATE TABLE rockets (
+    id BIGSERIAL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL UNIQUE,
+    range VARCHAR(50) NOT NULL,
+    capacity INT NOT NULL
+);
