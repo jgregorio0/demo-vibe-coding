@@ -8,6 +8,7 @@ A modern, robust, and production-ready Spring Boot REST API template built with 
 
 - **Language & Runtime:** Java 25 & Spring Boot 4
 - **Build Tool:** Gradle
+- **Version control:** Git & GitHub
 - **Database:** PostgreSQL (Production) & H2 (In-memory testing)
 - **Persistence:** Spring Data JPA & Hibernate
 - **Database Migrations:** Flyway
