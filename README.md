@@ -66,8 +66,8 @@ To run this application locally, you will need:
 Clone the repository and navigate to the project root:
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/jgregorio0/demo-vibe-coding.git
+cd demo-vibe-coding
 ```
 
 ### Step 2: Spin Up Infrastructure
@@ -92,7 +92,7 @@ Execute the Gradle bootRun command:
 Alternatively, run it using active profiles (e.g., `dev`):
 
 ```bash
-./mvnw spring-boot:run -Dspring-boot.run.profiles=dev
+./gradlew bootRun -Dspring-boot.run.profiles=dev
 ```
 
 Once started, the application will be accessible at: `http://localhost:8080`
