@@ -39,7 +39,7 @@ src/main/java/dev/jgregorio/demo/vibe/
 
 - **Language:** Java 25
 - **Runtime framework:** Spring Boot 4
-- **Build Tool:** Gradle
+- **Build Tool:** Gradle 9
 - **Database:** PostgreSQL (Production) & H2 (In-memory testing)
 - **Persistence:** Spring Data JPA & Hibernate
 - **Database Migrations:** Flyway
