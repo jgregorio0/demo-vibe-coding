@@ -17,10 +17,11 @@ A file AGENTS.md is provided with common coding rules. Follow them carefully.
 - Use descriptive names for test cases following the project's testing convention (e.g., Given/When/Then or Should).
 
 ## Steps to follow
-1. **Understand the specification:** read the context to grasp the requirements, business rules, and edge cases.
-2. **Identify test scenarios:** break down the functionality into verifiable behaviors (happy paths, validation errors, boundaries).
-3. **Have a plan:** generate a list of the specific unit and integration tests to implement.
-4. **Implement the tests:** write the testing code following the plan. Do not write production code or documentation, just the test suite.
+1. **Ensure clean GIT**: stop process if any changes are not commited before starting.
+2. **Understand the specification:** read the context to grasp the requirements, business rules, and edge cases.
+3. **Identify test scenarios:** break down the functionality into verifiable behaviors (happy paths, validation errors, boundaries).
+4. **Have a plan:** generate a list of the specific unit and integration tests to implement.
+5. **Implement the tests:** write the testing code following the plan. Do not write production code or documentation, just the test suite.
 
 ## Output checklist
 - [ ] Tests for the production code.
