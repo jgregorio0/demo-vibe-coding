@@ -8,9 +8,8 @@ import org.springframework.test.context.ActiveProfiles;
 @ActiveProfiles("dev")
 class ApplicationTests {
 
-	@Test
-	void contextLoads() {
-		// This smoke test verifies that the Spring application context starts successfully.
-	}
-
+  @Test
+  void contextLoads() {
+    // This smoke test verifies that the Spring application context starts successfully.
+  }
 }

@@ -1,9 +1,9 @@
 package dev.jgregorio.demo.vibe.coding.infrastructure.config;
 
-import lombok.Builder;
-import lombok.Getter;
 import java.time.LocalDateTime;
 import java.util.List;
+import lombok.Builder;
+import lombok.Getter;
 
 @Getter
 @Builder

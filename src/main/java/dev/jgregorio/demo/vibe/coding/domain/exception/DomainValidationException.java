@@ -1,7 +1,7 @@
 package dev.jgregorio.demo.vibe.coding.domain.exception;
 
-import lombok.Getter;
 import java.util.List;
+import lombok.Getter;
 
 @Getter
 public class DomainValidationException extends RuntimeException {
