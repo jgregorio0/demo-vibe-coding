@@ -18,6 +18,7 @@ A modern, robust, and production-ready Spring Boot REST API template built with 
 - **Code Quality:** Lombok, MapStruct (for DTO mapping)
 - **Containerization:** Docker & Docker Compose
 - **Monitoring:** Spring Boot Actuator & Prometheus
+- **Code Styling:** Spotless
 
 ---
 
