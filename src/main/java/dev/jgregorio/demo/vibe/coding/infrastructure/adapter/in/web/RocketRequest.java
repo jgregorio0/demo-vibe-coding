@@ -6,11 +6,11 @@ import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import lombok.Builder;
 import lombok.Getter;
-import lombok.extern.jackson.Jacksonized;
+import tools.jackson.databind.annotation.JsonDeserialize;
 
 @Getter
 @Builder
-@Jacksonized
+@JsonDeserialize(builder = RocketRequest.RocketRequestBuilder.class)
 public class RocketRequest {
 
   @NotBlank(message = "Name is required")
@@ -23,4 +23,7 @@ public class RocketRequest {
   @Min(value = 1, message = "Capacity must be at least 1")
   @Max(value = 10, message = "Capacity must be at most 10")
   private final Integer capacity;
+
+  @tools.jackson.databind.annotation.JsonPOJOBuilder(withPrefix = "")
+  public static class RocketRequestBuilder {}
 }
